@@ -1,0 +1,74 @@
+{
+    "users" : [
+        {   
+            "id" : 1,
+            "username" : "iqbal123",
+            "nama" : "iqbal al-ayyubi",
+            "no_hp" : "08123456789",
+            "role" : "pemilik",
+            "password":"123",
+            "alamat" : "jl.sudirman no 23",
+            "profile" : "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+            "toko_id": "123456"
+        },
+        {
+            "id" : 2,
+            "username" : "yudhistira123",
+            "nama" : "yudhistira nanda kumala",
+            "no_hp" : "08987654321",
+            "role" : "user"
+        },
+        {
+            "id" : 3,
+            "username" : "aqsa123",
+            "nama" : "aqsa prima cahya",
+            "no_hp" : "08987654321",
+            "role" : "manager"
+        }
+    ],
+    "items":[
+        {
+            "id":1,
+            "nama":"chocolatos",
+            "kategori":"makanan",
+            "satuan":"pcs",
+            "modal":250,
+            "harga":500,
+            "stok":20
+        },
+        {
+            "id":2,
+            "nama":"bear brand",
+            "kategori":"minuman",
+            "satuan":"pcs",
+            "modal":9000,
+            "harga":12000,
+            "stok":40
+        },
+        {
+            "id":3,
+            "nama":"malkist roma",
+            "kategori":"makanan",
+            "satuan":"pcs",
+            "modal":500,
+            "harga":1000,
+            "stok":10
+        }
+    ],
+    "transaksi":[
+        {
+            "tanggal":"12/10/22",
+            "nama":"chocolatos",
+            "harga":500,
+            "jumlah":2,
+            "total":1000
+        },
+        {
+            "tanggal":"15/10/22",
+            "nama":"bear brand",
+            "harga":9000,
+            "jumlah":2,
+            "total":18000
+        }
+    ]
+}
