@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-white h-1/2 w-full flex flex-col items-center gap-5 relative">
+  <div class="bg-white h-[43%] lg:h-1/2 w-full flex flex-col items-center gap-5 relative">
     <div class="lg:w-8/12 w-full absolute flex justify-between">
         <img src="../assets/beranda/coin-left.svg" alt="" class="lg:ml-20 ml-0 lg:w-[130px] w-20">
         <img src="../assets/beranda/coin-right.svg" alt="" class="lg:mr-24 mr-0 lg:w-[130px] w-20">

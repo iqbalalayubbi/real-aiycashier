@@ -2,15 +2,14 @@
     <div class="h-screen bg-primary ">
         <div class="flex h-full">
             <router-link to="/"><img class="absolute top-8 left-8" src="../assets/beranda/logo.svg" alt="" width="150"></router-link>
-
-            <div class="w-full lg:w-1/2 flex flex-col items-center justify-center">
-                <div class="bg-gray-300 mt-10 w-3/4 lg:w-[60%] h-[60%] rounded-[20px] flex flex-col items-center lg:gap-8 gap-5">
-                    <h1 class="mt-8 font-bold text-second text-2xl">Masuk</h1>
+            <div class="w-full lg:w-1/2 flex flex-col items-center justify-center lg:mt-0 mt-10">
+                <div class="bg-gray-300 mt-10 w-[90%] lg:w-[60%] h-auto rounded-[20px] flex flex-col items-center lg:gap-8 gap-5">
+                    <h1 class="mt-3 font-bold text-second text-2xl">Masuk</h1>
                     <Input class="w-[80%] text-xl" type="text" nama="username"/>
                     <Input class="w-[80%] text-xl" type="password" nama="password"/>
-                    <Button class="w-[80%] bg-second text-white" nama="Masuk" @click="onLogin"/>
+                    <Button class="w-[80%] bg-second text-white lg:mb-0 mb-5" nama="Masuk" @click="onLogin"/>
                 </div>
-                <span class="mt-3">
+                <span class="mt-3 ">
                     Belum memiliki akun ?
                     <router-link to="/register" class="font-bold">Daftar</router-link>
                 </span>

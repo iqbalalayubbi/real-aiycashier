@@ -11,7 +11,7 @@
                 <Input nama="Password" class="w-full"/>
                 <Input nama="Role" class="w-full"/>
             </div>
-            <div class="flex flex-col items-center w-3/4 lg:w-1/3 gap-5 mt-10">
+            <div class="flex flex-col items-center w-3/4 lg:w-1/3 gap-5 mt-10 lg:mb-0 mb-10">
                 <Button nama="Tambah User" @click="this.$router.push('/users')" class="text-white bg-third w-full"/>
                 <Button nama="Kembali" @click="this.$router.push('/users')" class="text-white bg-second w-full"/>
             </div>

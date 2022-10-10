@@ -7,8 +7,8 @@
         <div class="w-full flex flex-col items-center relative">
             <div class="lg:w-3/4 w-[95%] h-[70%] mt-20 bg-white p-5 rounded-md flex flex-col items-center">
                 <Button :nama="type" class="bg-third px-5 text-white w-40 self-start" @click="changeType"/>
-                <div class="lg:w-3/4 h-full">
-                    <canvas :v-show="isActive" id="myChart" class="h-[65%] mt-8"></canvas>
+                <div class="lg:w-3/4 w-[90vw] h-auto relative mt-10">
+                    <canvas :v-show="isActive" id="myChart" class="w-full h-[80vh]"></canvas>
                 </div>
             </div>
         </div> 

@@ -1,7 +1,7 @@
 <template>
   <div class="relative pb-10">
     <DataPeople class="w-full"/>
-    <h1 class="lg:pt-20 pt-60 text-4xl font-bold text-center text-white">Fitur</h1>
+    <h1 class="lg:pt-20 pt-52 text-4xl font-bold text-center text-white">Fitur</h1>
     <div class="flex flex-col lg:flex-row items-center lg:justify-center lg:gap-20 gap-5 px-5 mt-10 lg:h-[55%]">
         <div class="flex flex-col items-center bg-white w-full lg:w-1/4 rounded-xl lg:h-full">
             <h1 class="text-2xl font-bold lg:mt-10 mt-3">Pembayaran Mudah</h1>

@@ -1,6 +1,6 @@
 <template>
     <div class="h-full">
-        <Navbar class="h-20 fixed z-[99] top-0  w-full transition-all duration-300" :class="[isScroll ? 'bg-slate-300' : '']"/>
+        <Navbar class="h-20 fixed z-[99] top-0  w-full transition-all duration-300" :class="[isScroll ? 'bg-slate-300' : '']" @clickNav="clickNav"/>
         <div class="h-20"></div>
         <Banner class="mt-20"/>
     </div>
@@ -19,7 +19,11 @@ export default {
     },
     components:{ Navbar,Banner },
     methods:{
+        clickNav(){
+            this.$emit('navMobile')
+        },
         onScroll(){
+            this.$emit('onScroll',window.scrollY)
             window.scrollY > 200 ? this.isScroll = true : this.isScroll = false
         }
     },

@@ -1,5 +1,5 @@
 <template>
-    <div class="flex justify-center absolute lg:-top-10 -top-16">
+    <div class="flex justify-center absolute lg:-top-10 -top-28">
         <div class="bg-white lg:w-1/2 w-3/4 flex lg:justify-center lg:gap-24 py-3 gap-5 rounded-md lg:flex-row flex-col">
             <div class="flex flex-col items-center">
                 <h1 class="text-2xl">Pengguna</h1>
